@@ -10,4 +10,8 @@ app.get('/vinicius', (req, res) => {
   return res.json("Vinicius")
 })
 
+app.get('/igor', (req, res) => {
+  return res.json("Igor")
+})
+
 app.listen(3000, () => console.log("Funcionando porta 3000"))
